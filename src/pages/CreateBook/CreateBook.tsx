@@ -12,8 +12,8 @@ const CreateBook = () => {
   const [formData, setFormData] = useState<IBook>({
     title: '',
     desc: '',
-    price: 0,
-    discount: 0,
+    price: 1,
+    discount: 1,
     author: '',
   });
 
